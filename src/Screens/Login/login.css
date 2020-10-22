@@ -1,0 +1,101 @@
+.login-component{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.wrap-login{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 21em;
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    border-radius: 6px;
+    padding: 24px;
+
+}
+.title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ .login-label {
+    font-family: Oxygen, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    padding-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ .login-input {
+    height: 2.1em;
+    border-radius: 3px;
+    border: 1px solid #70a1ff;
+    transition: border 0.4s ease-out;
+    padding: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    color: #3e3e42;
+    background: rgba(15, 15, 15, 0.01);
+}
+
+.login-input:hover {
+    border: 2px solid #70a1ff;
+}
+
+.login-input:focus {
+    border: 2px solid #6565e7;
+    box-shadow: 0px 0px 20px rgba(15, 15, 15, 0.2);
+}
+
+ .login-input::placeholder {
+    font-family: Oxygen, sans-serif;
+    font-size: 16px; 
+    /* color: rgba(46, 213, 116, 0.839); */
+    color: rgba(15, 15, 15, 0.4);
+}
+
+.login-btn {
+    padding: 2px 30px;
+    /* background: #417cef; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-radius: 3px;
+    /* background-color: rgba(15, 15, 15, 0.03); */
+    margin-top: 20px;
+    /* border: 2px solid #417cef; */
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+}
+
+.login-btn:hover,
+.login-btn:focus {
+    background-color: #417cef;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 15px;
+}
