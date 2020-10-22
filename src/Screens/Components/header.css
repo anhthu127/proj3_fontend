@@ -1,0 +1,52 @@
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+.topbar {
+    background: #181818;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 0 48px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    position: fixed;
+}
+ 
+.logo {
+    width: 10%;
+    height: 50px;
+}
+.logo {
+    background:  #ffffff;
+}
+
+.logo img{
+    display: inline-block;
+    vertical-align: inherit;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.topbar .res-menu{
+    width: 70%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.topbar .res-menu .btn-top{
+    height: 30px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+   background: #181818;
+}
+.btn-top span{
+    color: #ffffff;
+}

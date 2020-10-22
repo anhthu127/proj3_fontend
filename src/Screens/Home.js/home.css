@@ -1,0 +1,21 @@
+
+.wrap-home-page{
+    background: #141414;
+
+}
+.wrap-body{
+        padding-left: 50px;
+    /* padding-right: 100px; */
+}
+.intro-slider .slider{
+    width: 100%;
+    height: 450px;
+    background: #a5af10;
+     
+}
+.category{
+    width: 100%;
+}
+.wrap-title p{
+    color: #ffffff;
+}
